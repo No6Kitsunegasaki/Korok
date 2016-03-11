@@ -1,1 +1,1 @@
-web: bin/hubot -a twitter -n @hats_m
+tw: node_modules/.bin/babel-hubot -a twitter-userstream
