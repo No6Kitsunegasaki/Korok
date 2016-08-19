@@ -7,7 +7,7 @@ const filepath = 'files/cron_30m.txt'
 
 module.exports = (robot => {
   new cronJob(
-    '0 0,30 * * * *',
+    '00 00,30 * * * *',
     () => {
       var strings = fs.readFileSync(filepath).toString().split('\n')
       var string = strings[Math.floor(Math.random() * (strings.length))]
