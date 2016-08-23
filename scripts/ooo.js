@@ -17,7 +17,7 @@ module.exports = (robot => {
       'ヌルヌル,ツバメ,イヌ': 'ヌ！ル！ツ！バイ！',
     }
     var medals = [ msg.match[1], msg.match[2], msg.match[3] ]
-    var key = combos[`${medals[0]},${medals[1]},${medals[2]}`]
+    var key = `${medals[0]},${medals[1]},${medals[2]}`
     var combo = key in combos ? combos[key] : ''
     msg.reply(`${medals[0]}！${medals[1]}！${medals[2]}！${combo}`)
   }))
