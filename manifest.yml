@@ -3,4 +3,4 @@ applications:
   command: ./node_modules/.bin/babel-hubot --adapter twitter-userstream
   path: .
   instances: 1
-  memory: 128M
+  memory: 256M
