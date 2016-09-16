@@ -4,7 +4,7 @@
 //   korok 死にたい - too young too die
 
 module.exports = (robot => {
-  robot.respond(/(死|し)にたい/i, (msg => {
+  robot.respond(/.*(死|し)にたい/i, (msg => {
     var re = [
       'おうちにかえって、おいしいものたべて、おふとんですやすやしましょう！',
       'あしたはおやすみにして、あたみにいきましょう！',

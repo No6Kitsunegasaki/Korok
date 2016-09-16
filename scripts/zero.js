@@ -4,7 +4,7 @@
 //   korok 事情を説明したまえ - benkai is zaiaku
 
 module.exports = (robot => {
-  robot.respond(/事情を説明/i, (msg => {
+  robot.respond(/.*事情を説明/i, (msg => {
     msg.reply('いますこしじかんとよさんをいただければ……。')
   }))
 })
