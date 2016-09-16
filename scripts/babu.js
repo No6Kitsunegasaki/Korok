@@ -6,7 +6,7 @@
 //   korok バブ - best babu
 
 module.exports = (robot => {
-  robot.respond(/バブ/i, (msg => {
+  robot.respond(/.*バブ/i, (msg => {
     var re = [
       'きょうのきぶんは……、ゆずのかおり！ゆずのうたをうたいます！ゆーずー！ゆずゆずー！ゆーずゆずーゆー！',
       'きょうのきぶんは……、もりのかおり！もりのかおりはね！もり！ってかんじのにおいがするの！',
